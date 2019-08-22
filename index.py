@@ -152,9 +152,9 @@ while True:
             break;
         else:
             pass;
-     sock.sendto(bytes, (ip, port));
+     sock.sendto(bytes, (ip,port));
      sent = sent + 1;
      port = port + 1;
-     print "\033[0;32;47m%s (%s:%s)" %(sent, ip, port);
+     print "\033[0;32;47m%s (%s:%s)" %(sent,ip,port);
      if port == 65534:
        port = 1;
