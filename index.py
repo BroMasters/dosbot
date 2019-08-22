@@ -151,7 +151,7 @@ while True:
     if time.time() > timeout:
       break;
     else:
-      pass;
+      pass
       sock.sendto(bytes, (ip, port));
       sent = sent + 1;
       port = port + 1;
