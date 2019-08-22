@@ -27,7 +27,7 @@ print ('''
 ip = raw_input("IP: ");
 port = input("Port: ");
 os.system("clear");
-sent = 0;
+sent = 0
 while True:
   while 1:
     if time.time() > timeout:
