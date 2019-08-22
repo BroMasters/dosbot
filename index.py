@@ -26,6 +26,7 @@ print ("""
 """);
 print "Yukleniyor.";
 time.sleep(1);
+os.system("clear");
 print ("""
 \033[1;36;40m
  ______   _______  _______  _______  _______  _______ 
@@ -38,6 +39,7 @@ print ("""
 """);
 print "Yukleniyor..";
 time.sleep(1);
+os.system("clear");
 print ("""
 \033[1;36;40m
  ______   _______  _______  _______  _______  _______ 
@@ -50,6 +52,7 @@ print ("""
 """);
 print "Yukleniyor...";
 time.sleep(1);
+os.system("clear");
 print ("""
 \033[1;36;40m
  ______   _______  _______  _______  _______  _______ 
@@ -62,6 +65,7 @@ print ("""
 """);
 print "Yukleniyor.";
 time.sleep(1);
+os.system("clear");
 print ("""
 \033[1;36;40m
  ______   _______  _______  _______  _______  _______ 
@@ -74,6 +78,7 @@ print ("""
 """);
 print "Yukleniyor..";
 time.sleep(1);
+os.system("clear");
 print ("""
 \033[1;36;40m
  ______   _______  _______  _______  _______  _______ 
@@ -86,6 +91,7 @@ print ("""
 """);
 print "Yukleniyor...";
 time.sleep(1);
+os.system("clear");
 print ("""
 \033[1;36;40m
  ______   _______  _______  _______  _______  _______ 
@@ -98,6 +104,7 @@ print ("""
 """);
 print "Yukleniyor.";
 time.sleep(1);
+os.system("clear");
 print ("""
 \033[1;36;40m
  ______   _______  _______  _______  _______  _______ 
@@ -110,6 +117,7 @@ print ("""
 """);
 print "Yukleniyor..";
 time.sleep(1);
+os.system("clear");
 print ("""
 \033[1;36;40m
  ______   _______  _______  _______  _______  _______ 
@@ -122,6 +130,7 @@ print ("""
 """);
 print "Yukleniyor...";
 time.sleep(1);
+os.system("clear");
 print ("""
 \033[1;36;40m
  ______   _______  _______  _______  _______  _______ 
