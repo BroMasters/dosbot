@@ -37,6 +37,7 @@ while True:
     sock.sendto(bytes, (ip,port));
     sent = sent + 1;
     port = port + 1;
-    print "\033[0;32;47m%sent. paket, %ip adresine; %port portuyla gonderildi" %(sent,ip,port);
+    print "\033[92mSent %sent packet to %ip throught port:%port successful" %(sent,ip,port);
+    // print "\033[0;32;47m%sent. paket, %ip adresine; %port portuyla gonderildi" %(sent,ip,port);
     if port == 65534:
       port = 1;
