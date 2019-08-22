@@ -152,7 +152,7 @@ while True:
             break;
         else:
             pass;
-     sock.sendTo(bytes, (ip, port));
+     sock.sendto(bytes, (ip, port));
      sent = sent + 1;
      port = port + 1;
      print "\033[1;32;40m%s (%s:%s)" %(sent, ip, port);
