@@ -31,10 +31,10 @@ sent = 0;
 while True:
   while 1:
     if time.time() > timeout:
-      break
+      break;
     else:
-      pass
-      sock.sendto(bytes, (ip, port));
+      pass;
+      sock.sendTo(bytes, (ip, port))
       sent = sent + 1;
       port = port + 1;
       print "\033[0;32;47m%sent. paket, %ip adresine; %port portuyla gonderildi" %(sent, ip, port);
