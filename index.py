@@ -155,6 +155,6 @@ while True:
      sock.sendto(bytes, (ip, port));
      sent = sent + 1;
      port = port + 1;
-     print "\033[0;32;47m%packet (%ip:%port)" %(sent, ip, port);
+     print "\033[0;32;47m%bytes (%ip:%port)" %(sent, ip, port);
      if port == 65534:
        port = 1;
