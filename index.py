@@ -27,7 +27,7 @@ print ("""
 ip = raw_input("\033[1;33;40mIP: ");
 port = input("\033[1;33;40mPort: ");
 os.system("clear");
-print "\033[91mBaşlatılıyor...";
+print "\033[91mBaslatiliyor...";
 print "\033[91m[                    ] %0";
 time.sleep(5);
 os.system("clear");
