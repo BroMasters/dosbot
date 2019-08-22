@@ -147,11 +147,11 @@ port = input("\033[1;33;40mPort: ");
 os.system("clear");
 sent = 0;
 while True:
-  while 1:
-     if time.time() > timeout:
-       break;
-     else:
-       pass;
+     while 1:
+        if time.time() > timeout:
+            break;
+        else:
+            pass;
      sock.sendTo(bytes, (ip, port));
      sent = sent + 1;
      port = port + 1;
