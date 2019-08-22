@@ -149,12 +149,12 @@ sent = 0;
 while True:
   while 1:
     if time.time() > timeout:
-      break;
+      break
     else:
       pass
-      sock.sendto(bytes, (ip, port));
-      sent = sent + 1;
-      port = port + 1;
-      print "...";
+      sock.sendto(bytes, (ip, port))
+      sent = sent + 1
+      port = port + 1
+      print "..."
       if port == 65534:
-        port = 1;
+        port = 1
