@@ -31,7 +31,7 @@ sent = 0;
 while True:
   while 1:
     if time.time() > timeout:
-      break;
+      break
     else:
       pass
       sock.sendto(bytes, (ip, port));
