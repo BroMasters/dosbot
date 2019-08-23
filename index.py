@@ -25,6 +25,7 @@ print ("""
   \__, |_| |_|_|  \__,_| .__/_____|
    __/ |               | |         
   |___/                |_|         
+           ghrapZ.tr.gg
 """);
 time.sleep(10);
 os.system("clear");
