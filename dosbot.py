@@ -3,13 +3,13 @@ import os;
 import time;
 import socket;
 import random;
-from datetime import datetime;
+/*from datetime import datetime;
 now = datetime.now();
 hour = now.hour;
 minute = now.minute;
 day = now.day;
 month = now.month;
-year = now.year;
+year = now.year;*/
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM);
 bytes = random._urandom(10000);
 timeout = time.time();
@@ -24,7 +24,6 @@ print ("""
 | |_|   ||  |_|  ||_____  ||  _   | |  |_|  |  |   |  
 |       ||       | _____| || |_|   ||       |  |   |  
 |______| |_______||_______||_______||_______|  |___|v6
-                     \033[1;31;40mghrapZ.tr.gg
 """);
 ip = raw_input("\033[1;36;40mIP: \033[1;33;40m");
 os.system("clear");
@@ -37,7 +36,6 @@ print ("""
 | |_|   ||  |_|  ||_____  ||  _   | |  |_|  |  |   |  
 |       ||       | _____| || |_|   ||       |  |   |  
 |______| |_______||_______||_______||_______|  |___|v6
-                     \033[1;31;40mghrapZ.tr.gg
 """);
 port = input("\033[1;36;40mPort: \033[1;33;40m");
 os.system("clear");
