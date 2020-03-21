@@ -1,4 +1,4 @@
-import sys;
+import os;
 
 os.system("pkg install python2");
 os.system("pkg install git");
